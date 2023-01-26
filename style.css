@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(165, 160, 236);
+}
+.container{
+    background-color: rgb(179, 227, 227);
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 6px 10px rgba(25, 69, 116, 0.5);
+
+}
+.heading{
+    font-size: 34px;
+    font-weight: 700;
+
+    
+}
+.quote{
+    font-size: 28px;
+    font-weight: 500;
+
+}
+.author{
+    font-size:20px ;
+    font-style: oblique;
+}
+.btn{
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    padding: 8px;
+    background-color: aqua;
+    width: 250px;
+
+}
+.btn:hover{
+    background-color: rgb(75, 39, 192);
+    color: rgb(234, 233, 233);
+    box-shadow: 0 4px 4px rgba(100, 91, 188, 0.5);
+
+}
+
